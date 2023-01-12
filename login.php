@@ -1,9 +1,9 @@
 <?php
 	include "connection.php";
 	$username=$_POST['username'];
-	$password=$_POST['password'];
+	$password=$_POST['passwd'];
 
-	$cek_data=mysqli_query($conn,"SELECT * FROM user WHERE username='$username' and password='$password'");
+	$cek_data=mysqli_query($conn,"SELECT * FROM users WHERE username='$username' and passwd='$password'");
 	$cek = mysqli_num_rows($cek_data);
 	
 	if ($cek>0){
