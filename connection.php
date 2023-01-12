@@ -1,3 +1,5 @@
 <?php
-	$conn=mysqli_connect('localhost','root','','sample');
+	$conn=mysqli_connect('fastdeal002.mysql.guardedhost.com
+','fastdeal002_dtsdb
+','Jomarmata','users');
 ?>
